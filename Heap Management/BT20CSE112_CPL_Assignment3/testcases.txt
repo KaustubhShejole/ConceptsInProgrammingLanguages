@@ -1,0 +1,145 @@
+PS C:\Users\KAUSTUBH\Documents\Concepts_in_programming_languages\Assignment_3> ./final.exe     
+Welcome to simulation Heap Management: 
+Please enter the actual size : 100
+Our program has a heap size of 89
+initial free and filled lists:
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+Successfully allocated given request
+After Doing int var = malloc(1);
+var = 0
+[ [ 1 ] , [  ] , [ 2 ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 0 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+Successfully allocated given request
+After Doing int var1 = malloc(1);
+var1 = 1
+[ [  ] , [  ] , [ 2 ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 0 , 1 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+free(var)
+[ [ 0 ] , [  ] , [ 2 ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 1 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+free(var1)
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+PS C:\Users\KAUSTUBH\Documents\Concepts_in_programming_languages\Assignment_3> ./final.exe     
+Welcome to simulation Heap Management: 
+Please enter the actual size : 100
+Our program has a heap size of 89
+initial free and filled lists:
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+Successfully allocated given request
+After Doing int var = malloc(1);
+var = 0
+[ [ 1 ] , [  ] , [ 2 ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 0 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+Successfully allocated given request
+After Doing int var1 = malloc(1);
+var1 = 1
+[ [  ] , [  ] , [ 2 ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 0 , 1 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+free(var1)
+[ [ 1 ] , [  ] , [ 2 ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 0 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+free(var)
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+PS C:\Users\KAUSTUBH\Documents\Concepts_in_programming_languages\Assignment_3> ./final.exe
+Welcome to simulation Heap Management: 
+Please enter the actual size : 100
+Our program has a heap size of 89
+initial free and filled lists:
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+Successfully allocated given request
+After Doing var = malloc(1)
+var = 0
+[ [ 1 ] , [  ] , [ 2 ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 0 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+Successfully allocated given request
+After Doing var1 = malloc(1)
+var1 = 1
+[ [  ] , [  ] , [ 2 ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 0 , 1 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+Successfully allocated given request
+After Doing var2 = malloc(5)
+var2 = 8
+[ [  ] , [  ] , [ 2 , 5 ] , [  ] , [  ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 0 , 1 ] , [  ] , [  ] , [ 8 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+free(var)
+[ [ 0 ] , [  ] , [ 2 , 5 ] , [  ] , [  ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [ 1 ] , [  ] , [  ] , [ 8 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+free(var1)
+[ [  ] , [  ] , [ 5 ] , [ 0 ] , [  ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [  ] , [  ] , [  ] , [ 8 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+free(var2)
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+PS C:\Users\KAUSTUBH\Documents\Concepts_in_programming_languages\Assignment_3> ./final.exe
+Welcome to simulation Heap Management: 
+Please enter the actual size : 100
+Our program has a heao size of 89
+initial free and filled lists:
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+Successfully allocated given request
+After Doing int var = malloc(5);
+var = 0
+[ [  ] , [  ] , [  ] , [  ] , [ 5 ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [  ] , [  ] , [  ] , [ 0 ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+Successfully allocated given request
+After Doing int var1 = malloc(8);
+var1 = 5
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 13 ] , [  ] , [ 34 ] , [  ] ]
+[ [  ] , [  ] , [  ] , [ 0 ] , [ 5 ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+Successfully allocated given request
+After Doing int var2 = malloc(22);
+var2 = 55
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 13 , 34 ] , [  ] , [  ] , [  ] ]
+[ [  ] , [  ] , [  ] , [ 0 ] , [ 5 ] , [  ] , [  ] , [ 55 ] , [  ] , [  ] ]
+
+free(var)
+[ [  ] , [  ] , [  ] , [ 0 ] , [  ] , [  ] , [ 13 , 34 ] , [  ] , [  ] , [  ] ]
+[ [  ] , [  ] , [  ] , [  ] , [ 5 ] , [  ] , [  ] , [ 55 ] , [  ] , [  ] ]
+free(var1)
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 34 ] , [ 0 ] , [  ] , [  ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 55 ] , [  ] , [  ] ]
+free(var2)
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+
+PS C:\Users\KAUSTUBH\Documents\Concepts_in_programming_languages\Assignment_3> ./final.exe     
+Welcome to simulation Heap Management: 
+Please enter the actual size : 100
+Our program has a heao size of 89
+initial free and filled lists:
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] ]
+After Doing:
+    int var = malloc(9);
+    int var2 = malloc(10);
+    int var3 = malloc(43);
+    int var4 = malloc(3);
+
+    free(var3);
+    free(var2);
+    free(var4);
+    free(var);
+
+Successfully allocated given request
+Successfully allocated given request
+Successfully allocated given request
+Successfully allocated given request
+[ [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [  ] , [ 0 ] ]
